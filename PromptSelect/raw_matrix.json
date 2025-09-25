@@ -1,0 +1,370 @@
+[
+  [
+    [
+      "Histologic Grade/Differentiation: Poorly differentiated, high-grade",
+      "Tumor Type/Subtype: Sarcomatoid, micropapillary",
+      "Margins: Positive, infiltrative",
+      "Lymph Node Status: Extensive nodal metastasis",
+      "Vascular/Lymphatic Invasion: Widespread vascular invasion",
+      "Perineural Invasion: Frequent and deep",
+      "Necrosis: Extensive, geographic",
+      "Stroma: Desmoplastic, reactive",
+      "Biomarker Expression: High Ki-67, p53 mutation, low E-cadherin"
+    ],
+    [
+      "Histologic Grade/Differentiation: Moderately to poorly differentiated",
+      "Tumor Type/Subtype: High-risk variants (e.g., nested, plasmacytoid)",
+      "Margins: Close or focally positive",
+      "Lymph Node Status: Limited nodal involvement",
+      "Vascular/Lymphatic Invasion: Present, multifocal",
+      "Perineural Invasion: Present",
+      "Necrosis: Focal necrosis",
+      "Stroma: Fibrotic or myxoid",
+      "Biomarker Expression: Intermediate Ki-67, altered p53, low GATA3"
+    ],
+    [
+      "Histologic Grade/Differentiation: Moderately differentiated",
+      "Tumor Type/Subtype: Conventional urothelial carcinoma",
+      "Margins: Negative",
+      "Lymph Node Status: No nodal involvement",
+      "Vascular/Lymphatic Invasion: Absent or minimal",
+      "Perineural Invasion: Rare",
+      "Necrosis: Minimal",
+      "Stroma: Organized, non-reactive",
+      "Biomarker Expression: Moderate GATA3, low Ki-67, wild-type p53"
+    ],
+    [
+      "Histologic Grade/Differentiation: Well differentiated, low-grade",
+      "Tumor Type/Subtype: Papillary, non-invasive",
+      "Margins: Widely negative",
+      "Lymph Node Status: None",
+      "Vascular/Lymphatic Invasion: None",
+      "Perineural Invasion: Absent",
+      "Necrosis: Absent",
+      "Stroma: Mature, minimal inflammation",
+      "Biomarker Expression: High GATA3, low Ki-67, intact p53"
+    ]
+  ],
+  [
+    [
+      "Histologic Grade/Differentiation: Poorly differentiated, high nuclear atypia",
+      "Tumor Type/Subtype: High-grade variant, micropapillary, sarcomatoid",
+      "Margins: Positive or close margins",
+      "Lymph Node Status: Multiple positive nodes, extranodal extension",
+      "Vascular/Lymphatic Invasion: Extensive vascular invasion",
+      "Perineural Invasion: Present and extensive",
+      "Necrosis: Large, geographic tumor necrosis",
+      "Stroma: Desmoplastic, reactive stroma",
+      "Biomarker Expression: Loss of tumor suppressors (e.g. p53 overexpression), high Ki-67"
+    ],
+    [
+      "Histologic Grade/Differentiation: Moderately to poorly differentiated",
+      "Tumor Type/Subtype: Variant histology (e.g. squamous differentiation)",
+      "Margins: Focally positive or uncertain",
+      "Lymph Node Status: Few positive lymph nodes",
+      "Vascular/Lymphatic Invasion: Present",
+      "Perineural Invasion: Present but limited",
+      "Necrosis: Moderate necrosis",
+      "Stroma: Reactive or inflamed stroma",
+      "Biomarker Expression: High proliferation index, partial loss of markers"
+    ],
+    [
+      "Histologic Grade/Differentiation: Well to moderately differentiated",
+      "Tumor Type/Subtype: Conventional urothelial carcinoma",
+      "Margins: Negative margins",
+      "Lymph Node Status: No nodal involvement",
+      "Vascular/Lymphatic Invasion: Absent or minimal",
+      "Perineural Invasion: Absent",
+      "Necrosis: Minimal or focal",
+      "Stroma: Mature stroma, low inflammation",
+      "Biomarker Expression: Normal expression pattern, low Ki-67"
+    ],
+    [
+      "Histologic Grade/Differentiation: Well differentiated, low atypia",
+      "Tumor Type/Subtype: Low-grade papillary urothelial carcinoma",
+      "Margins: Widely negative",
+      "Lymph Node Status: No involvement",
+      "Vascular/Lymphatic Invasion: None",
+      "Perineural Invasion: None",
+      "Necrosis: Absent",
+      "Stroma: Organized, non-reactive stroma",
+      "Biomarker Expression: Favorable markers (e.g. FGFR3+), low proliferation"
+    ]
+  ],
+  [
+    [
+      "Histologic Grade/Differentiation: poorly differentiated, high-grade",
+      "Tumor Type/Subtype: sarcomatoid, micropapillary, neuroendocrine",
+      "Margins: positive/involved",
+      "Lymph Node Status: extensive nodal metastasis",
+      "Vascular/Lymphatic Invasion: prominent",
+      "Perineural Invasion: present",
+      "Necrosis: extensive coagulative necrosis",
+      "Stroma: desmoplastic, fibrotic, immune-desert",
+      "Biomarker Expression: high Ki-67, p53 mutant pattern"
+    ],
+    [
+      "Histologic Grade/Differentiation: moderate to poor",
+      "Tumor Type/Subtype: high-grade urothelial carcinoma",
+      "Margins: close or focally involved",
+      "Lymph Node Status: limited metastasis",
+      "Vascular/Lymphatic Invasion: present",
+      "Perineural Invasion: possible",
+      "Necrosis: focal necrosis",
+      "Stroma: moderate fibrosis, low immune infiltrate",
+      "Biomarker Expression: elevated Ki-67, abnormal p53"
+    ],
+    [
+      "Histologic Grade/Differentiation: well to moderately differentiated",
+      "Tumor Type/Subtype: conventional urothelial carcinoma",
+      "Margins: clear",
+      "Lymph Node Status: negative",
+      "Vascular/Lymphatic Invasion: absent",
+      "Perineural Invasion: absent",
+      "Necrosis: minimal",
+      "Stroma: moderate, inflamed",
+      "Biomarker Expression: moderate Ki-67, wild-type p53"
+    ],
+    [
+      "Histologic Grade/Differentiation: well differentiated, low-grade",
+      "Tumor Type/Subtype: non-invasive papillary, low-grade carcinoma",
+      "Margins: widely clear",
+      "Lymph Node Status: negative",
+      "Vascular/Lymphatic Invasion: none",
+      "Perineural Invasion: none",
+      "Necrosis: absent",
+      "Stroma: loose, inflamed, immune-rich",
+      "Biomarker Expression: low Ki-67, normal p53, GATA3 positive"
+    ]
+  ],
+  [
+    [
+      "Histologic Grade/Differentiation: Poorly differentiated, high-grade",
+      "Tumor Type/Subtype: Sarcomatoid, micropapillary variants",
+      "Margins: Positive/infiltrative margins",
+      "Lymph Node Status: Extensive nodal metastasis",
+      "Vascular/Lymphatic Invasion: Frequent, prominent",
+      "Perineural Invasion: Common",
+      "Necrosis: Large, geographic necrosis",
+      "Stroma: Desmoplastic, inflamed",
+      "Biomarker Expression: Low GATA3, high Ki-67, p53 mutation"
+    ],
+    [
+      "Histologic Grade/Differentiation: Moderately to poorly differentiated",
+      "Tumor Type/Subtype: Nested, plasmacytoid features",
+      "Margins: Close/irregular margins",
+      "Lymph Node Status: Limited nodal involvement",
+      "Vascular/Lymphatic Invasion: Present",
+      "Perineural Invasion: Occasional",
+      "Necrosis: Focal necrosis",
+      "Stroma: Reactive, fibrotic",
+      "Biomarker Expression: p53 altered, CK5/6 positive"
+    ],
+    [
+      "Histologic Grade/Differentiation: Well to moderately differentiated",
+      "Tumor Type/Subtype: Conventional urothelial carcinoma",
+      "Margins: Negative margins",
+      "Lymph Node Status: No nodal spread",
+      "Vascular/Lymphatic Invasion: Absent",
+      "Perineural Invasion: Rare",
+      "Necrosis: Minimal",
+      "Stroma: Balanced fibro-inflammatory",
+      "Biomarker Expression: GATA3 positive, low Ki-67"
+    ],
+    [
+      "Histologic Grade/Differentiation: Well differentiated, low-grade",
+      "Tumor Type/Subtype: Papillary non-invasive",
+      "Margins: Wide, clear margins",
+      "Lymph Node Status: N0",
+      "Vascular/Lymphatic Invasion: Absent",
+      "Perineural Invasion: Absent",
+      "Necrosis: Absent",
+      "Stroma: Minimal, non-inflamed",
+      "Biomarker Expression: GATA3 high, p53 wild-type"
+    ]
+  ],
+  [
+    [
+      "Histologic Grade/Differentiation: High grade, poorly differentiated",
+      "Tumor Type/Subtype: Sarcomatoid, micropapillary, small cell",
+      "Margins: Positive, infiltrative growth",
+      "Lymph Node Status: Extensive nodal metastasis",
+      "Vascular/Lymphatic Invasion: Frequent, extensive",
+      "Perineural Invasion: Present",
+      "Necrosis: Extensive geographic necrosis",
+      "Stroma: Desmoplastic, dense fibrosis",
+      "Biomarker Expression: High Ki-67, p53 mutation, PD-L1 overexpression"
+    ],
+    [
+      "Histologic Grade/Differentiation: Moderate to high grade",
+      "Tumor Type/Subtype: Invasive urothelial with squamous differentiation",
+      "Margins: Close or focally positive",
+      "Lymph Node Status: Limited nodal involvement",
+      "Vascular/Lymphatic Invasion: Focal or moderate",
+      "Perineural Invasion: Possible",
+      "Necrosis: Patchy necrosis",
+      "Stroma: Reactive stroma, mild fibrosis",
+      "Biomarker Expression: Elevated Ki-67, basal markers (CK5/6+, GATA3−)"
+    ],
+    [
+      "Histologic Grade/Differentiation: Low to moderate grade",
+      "Tumor Type/Subtype: Conventional urothelial carcinoma",
+      "Margins: Negative",
+      "Lymph Node Status: No nodal involvement",
+      "Vascular/Lymphatic Invasion: Absent or rare",
+      "Perineural Invasion: Absent",
+      "Necrosis: Minimal",
+      "Stroma: Loose, non-reactive",
+      "Biomarker Expression: Luminal markers (GATA3+, CK20+), low Ki-67"
+    ],
+    [
+      "Histologic Grade/Differentiation: Well differentiated",
+      "Tumor Type/Subtype: Non-invasive papillary, nested variant",
+      "Margins: Widely negative",
+      "Lymph Node Status: N0",
+      "Vascular/Lymphatic Invasion: Absent",
+      "Perineural Invasion: Absent",
+      "Necrosis: None",
+      "Stroma: Delicate, minimal response",
+      "Biomarker Expression: Low Ki-67, strong luminal profile, FGFR3 mutation"
+    ]
+  ],
+  [
+    [
+      "Histologic Grade/Differentiation: High grade, poorly differentiated",
+      "Tumor Type/Subtype: Sarcomatoid, micropapillary, plasmacytoid",
+      "Margins: Positive/infiltrative margins",
+      "Lymph Node Status: Extensive nodal metastasis",
+      "Vascular/Lymphatic Invasion: Prominent vascular/lymphatic invasion",
+      "Perineural Invasion: Frequent",
+      "Necrosis: Extensive geographic necrosis",
+      "Stroma: Desmoplastic, inflammatory",
+      "Biomarker Expression: High Ki-67, low E-cadherin, p53 mutant pattern"
+    ],
+    [
+      "Histologic Grade/Differentiation: Moderate to high grade",
+      "Tumor Type/Subtype: High-grade conventional urothelial carcinoma",
+      "Margins: Focal margin involvement",
+      "Lymph Node Status: Limited nodal spread",
+      "Vascular/Lymphatic Invasion: Focal",
+      "Perineural Invasion: Present but less extensive",
+      "Necrosis: Patchy necrosis",
+      "Stroma: Reactive, moderate fibrosis",
+      "Biomarker Expression: Elevated Ki-67, p53 aberrant, low CK20"
+    ],
+    [
+      "Histologic Grade/Differentiation: Low to moderate grade",
+      "Tumor Type/Subtype: Conventional low-grade urothelial carcinoma",
+      "Margins: Negative, pushing border",
+      "Lymph Node Status: No nodal metastasis",
+      "Vascular/Lymphatic Invasion: Absent or rare",
+      "Perineural Invasion: Absent",
+      "Necrosis: Minimal or focal",
+      "Stroma: Loose, minimal inflammation",
+      "Biomarker Expression: Normal p53, low Ki-67, intact E-cadherin"
+    ],
+    [
+      "Histologic Grade/Differentiation: Well differentiated",
+      "Tumor Type/Subtype: Papillary non-invasive, low-grade",
+      "Margins: Widely negative margins",
+      "Lymph Node Status: No involvement",
+      "Vascular/Lymphatic Invasion: None",
+      "Perineural Invasion: None",
+      "Necrosis: Absent",
+      "Stroma: Delicate, non-reactive",
+      "Biomarker Expression: Low Ki-67, wild-type p53, strong CK20, GATA3+"
+    ]
+  ],
+  [
+    [
+      "Histologic Grade/Differentiation: Poorly differentiated; high-grade nuclei",
+      "Tumor Type/Subtype: High-grade variant; sarcomatoid/micropapillary",
+      "Margins: Positive surgical margins",
+      "Lymph Node Status: Extensive nodal metastasis",
+      "Vascular/Lymphatic Invasion: Frequent vascular invasion",
+      "Perineural Invasion: Present",
+      "Necrosis: Extensive geographic necrosis",
+      "Stroma: Desmoplastic; reactive fibroblasts",
+      "Biomarker Expression: Low E-cadherin; high Ki-67; p53 mutation"
+    ],
+    [
+      "Histologic Grade/Differentiation: Moderate to poorly differentiated",
+      "Tumor Type/Subtype: Infiltrating urothelial carcinoma",
+      "Margins: Close/indeterminate margins",
+      "Lymph Node Status: Limited nodal involvement",
+      "Vascular/Lymphatic Invasion: Focal lymphovascular invasion",
+      "Perineural Invasion: Focal or suspected",
+      "Necrosis: Patchy necrosis",
+      "Stroma: Moderate fibrosis; mixed inflammation",
+      "Biomarker Expression: Elevated Ki-67; aberrant p53"
+    ],
+    [
+      "Histologic Grade/Differentiation: Well to moderately differentiated",
+      "Tumor Type/Subtype: Conventional urothelial carcinoma",
+      "Margins: Negative margins",
+      "Lymph Node Status: No nodal metastasis",
+      "Vascular/Lymphatic Invasion: Absent",
+      "Perineural Invasion: Absent",
+      "Necrosis: Minimal or absent",
+      "Stroma: Mild fibrosis; organized lymphoid aggregates",
+      "Biomarker Expression: Preserved E-cadherin; low Ki-67"
+    ],
+    [
+      "Histologic Grade/Differentiation: Well differentiated",
+      "Tumor Type/Subtype: Papillary non-invasive or carcinoma in situ",
+      "Margins: Widely negative",
+      "Lymph Node Status: No involvement",
+      "Vascular/Lymphatic Invasion: None",
+      "Perineural Invasion: None",
+      "Necrosis: Absent",
+      "Stroma: Loose collagen; lymphocyte-rich",
+      "Biomarker Expression: Normal p53; low Ki-67; strong E-cadherin"
+    ]
+  ],
+  [
+    [
+      "Histologic Grade/Differentiation: poorly differentiated, anaplastic",
+      "Tumor Type/Subtype: high-grade aggressive subtype",
+      "Margins: positive margins",
+      "Lymph Node Status: multiple positive nodes",
+      "Vascular/Lymphatic Invasion: extensive invasion",
+      "Perineural Invasion: present",
+      "Necrosis: extensive geographic necrosis",
+      "Stroma: desmoplastic, inflamed",
+      "Biomarker Expression: high Ki-67, p53 mutation"
+    ],
+    [
+      "Histologic Grade/Differentiation: moderately to poorly differentiated",
+      "Tumor Type/Subtype: intermediate-grade subtype",
+      "Margins: close or focally positive",
+      "Lymph Node Status: limited nodal involvement",
+      "Vascular/Lymphatic Invasion: focal invasion",
+      "Perineural Invasion: possible",
+      "Necrosis: moderate",
+      "Stroma: fibrotic, moderate inflammation",
+      "Biomarker Expression: moderate Ki-67, partial p53"
+    ],
+    [
+      "Histologic Grade/Differentiation: moderately differentiated",
+      "Tumor Type/Subtype: favorable subtype",
+      "Margins: negative margins",
+      "Lymph Node Status: no nodal involvement",
+      "Vascular/Lymphatic Invasion: absent",
+      "Perineural Invasion: absent",
+      "Necrosis: minimal",
+      "Stroma: organized, mild inflammation",
+      "Biomarker Expression: low Ki-67, wild-type p53"
+    ],
+    [
+      "Histologic Grade/Differentiation: well differentiated",
+      "Tumor Type/Subtype: low-grade indolent subtype",
+      "Margins: widely negative",
+      "Lymph Node Status: node-negative",
+      "Vascular/Lymphatic Invasion: none",
+      "Perineural Invasion: none",
+      "Necrosis: absent",
+      "Stroma: mature, non-inflamed",
+      "Biomarker Expression: very low Ki-67, favorable markers"
+    ]
+  ]
+]

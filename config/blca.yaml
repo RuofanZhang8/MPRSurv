@@ -1,0 +1,119 @@
+# {0}: will be replaced by `dataset_name`
+# {1}: will be replaced by `CFG[dataset_name]['disk_location']`
+# {2}: will be replaced by `data_split_seed`
+task: MPRSurv
+cuda_id: 0
+seed: 42
+loss_alpha: 0.16
+
+# logging and saving
+eval_log_path: <EVAL_LOG_PATH>
+save_pkl: <SAVE_PKL_FLAG>
+rank_atn: <USE_RANK_ATN>
+abl_rank: <ABLATION_USE_RANK>
+
+wandb_dir: <YOUR_REPO_ROOT>
+wandb_prj: <WANDB_PROJECT_NAME>
+save_path: <YOUR_PATH>/results/{0}-EXPERIMENT
+save_prediction: True
+eval_training_loader_per_epoch: False
+ckpt_for_eval: last
+num_shot: [-1]
+
+# data loading
+dataset_name: ['{0}']
+path_patch: <YOUR_PATH>/{0}/patch_features  # or: /{1}/ExpData/{0}/tiles/feats
+path_coord: /{1}/ExpData/{0}/tiles/patches
+path_table: <YOUR_PATH>/data_splits/{0}/survival.csv
+data_mode: slide
+path_cluster: null
+path_graph: null
+feat_format: h5
+time_format: interval
+time_bins: null
+data_split_path: <YOUR_PATH>/data_splits/{0}/splits_{2}.csv
+data_split_seed: [0, 1, 2, 3, 4]
+
+# model architecture
+arch: MPRSurv_ME
+path_clip_model: <YOUR_PATH>/pretrained_models
+init_wt: False
+net_output_converter: softmax
+model_saver_module_filter: prompt_encoder
+
+# API dependency
+MPRSurv_api: TITAN
+
+# logit scale
+MPRSurv_frozen_logit_scale: False
+
+# [Vision] MIL encoder
+MPRSurv_img_encoder_name: CSA
+MPRSurv_img_encoder_frozen: False
+MPRSurv_img_encoder_dim_in: 768
+MPRSurv_img_encoder_dim_hid: 256
+MPRSurv_img_encoder_use_feat_proj: False
+MPRSurv_img_encoder_drop_rate: 0.25
+MPRSurv_img_encoder_pred_head: default
+MPRSurv_img_encoder_dim_reduction: 4
+MPRSurv_img_encoder_keep_ratio: 0.8
+
+# [Text] encoder
+MPRSurv_txt_encoder_name: mahmoodlab/conch
+MPRSurv_txt_encoder_frozen: True
+
+# [Text] prompt learning
+MPRSurv_pmt_learner_name: CoOp
+MPRSurv_pmt_learner_pretrained: False
+
+# [Text] CoOp
+MPRSurv_pmt_learner_coop_ckpt: null
+MPRSurv_pmt_learner_coop_method: ['rank']
+MPRSurv_pmt_learner_coop_num_ranks: null
+MPRSurv_pmt_learner_coop_num_base_ranks: 4
+MPRSurv_pmt_learner_coop_num_tokens_per_rank: 4
+MPRSurv_pmt_learner_coop_num_context_tokens: 8
+MPRSurv_pmt_learner_coop_rank_tokens_position: tail
+MPRSurv_pmt_learner_coop_init_prompt_path: ['prompt/survival_prompts_9.json']
+MPRSurv_pmt_learner_coop_init_prompt_rank_idx: 0
+MPRSurv_pmt_learner_coop_init_prompt_context_idx: 0
+MPRSurv_pmt_learner_coop_rank_specific_context: False
+MPRSurv_pmt_learner_coop_frozen_context_embeds: False
+MPRSurv_pmt_learner_coop_frozen_rank_embeds: False
+
+# training loss
+loss_type: SurvIFMLE-SurvEMD
+loss_survifmle_weight: 1.0
+loss_survemd_weight: 1.0
+loss_survemd_p: 2
+
+# evaluation
+evaluator: VL-IF
+
+# optimizer
+opt_name: adam
+opt_lr: 0.0002
+opt_weight_decay: 0.00001
+
+
+# training
+epochs: <EPOCHS>
+batch_size: <BATCH_SIZE>
+bp_every_batch: <BP_EVERY_BATCH>
+num_workers: <NUM_WORKERS>
+
+# early stopping
+es: <EARLY_STOPPING_ENABLED>
+es_patience: <ES_PATIENCE>
+es_warmup: <ES_WARMUP>
+es_verbose: <ES_VERBOSE>
+es_start_epoch: <ES_START_EPOCH>
+monitor_metrics: <MONITOR_METRIC>
+
+# lr scheduler
+lrs: <USE_LR_SCHEDULER>
+lrs_factor: <LRS_FACTOR>
+lrs_patience: <LRS_PATIENCE>
+
+# test mode
+test: False
